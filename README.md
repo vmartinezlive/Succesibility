@@ -18,12 +18,13 @@ _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly P
 13. [License](#license)
 
 ### Description
-Succesibility was built to show the importance of making a website assessable. It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
+Succesibility was built to show the importance of making a website accessibility.  It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
 
 ### Learning Objectives
 * Working as a team.
 * Leaning about accessibility guidelines and how to implement them.
 * Working with React and building an accessible web app.
+* Learning about different tiers of accessibility guidelines.
 
 ### Targeting Audience
 * Persons interested in implementing accessibility into their web app
@@ -56,4 +57,3 @@ Succesibility was built to show the importance of making a website assessable. I
 * Creating more pages
 * Routing links their proper pages
 * Connecting Instagram to Farmer Market Instagram account
-*  
