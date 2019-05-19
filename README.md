@@ -1,9 +1,11 @@
 # Successibility
+https://successibility.netlify.com/
 
 #### React team Project for Epicodus
 
 _Published_ **May 13 2019**<br>
 _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly Phongsavanh**
+
 
 1. [Description](#description)
 2. [Learning Objective](#learning-objective)
@@ -13,15 +15,15 @@ _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly P
 6. [View Project](#View-Project)
 7. [Stretch Goals](#stretch-goals)
 8. [Development Plan](#development-plan)
-10. [Installation](#installation)
-11. [Known Bugs](#known-bugs)
-12. [Technologies Used](#technologies-used)
-13. [License](#license)
+9. [Installation](#installation)
+10. [Known Bugs](#known-bugs)
+11. [Technologies Used](#technologies-used)
+12. [License](#license)
 
 ### Description
 Succesibility was built to show the importance of making a website accessibility.  It is important that the web be accessible to everyone in order to provide equal assess and provide equal opportunity to people with disabilities. An accessible web can help people with disabilities participate more actively in society.
 
-"About 15% of the world’s population has some form of disability. That’s right, over 1 billion people around the world have some sort of disability.", Why is web accessibility important? Because you want ALL your users to have a good on your site." by Posted: 29 Aug 2018 Contributor: Matthew J Fritschle, Aum Magazine
+"About 15% of the world’s population has some form of disability. That’s right, over 1 billion people around the world have some sort of disability.", by Posted: 29 Aug 2018 Contributor: Matthew J Fritschle, Aum Magazine
 
 ### View Project
 ![View Project](./src/assets/topClone.png?raw=true "Clone Project")
