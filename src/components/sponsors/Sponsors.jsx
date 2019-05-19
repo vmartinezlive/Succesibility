@@ -10,7 +10,7 @@ library.add(faLink);
 
 function Sponsors() {
 return (
-    <div className="main-container">
+    <section className="main-container">
       <style jsx>{`
         .main-container{
           display: flex;
@@ -20,6 +20,8 @@ return (
           flex-direction: column;
           width: 90%;
           margin: auto;
+          max-width: 1140px;
+        
         }
         .container {
           position: relative;
@@ -29,6 +31,9 @@ return (
           width: 30%;
           height: 200px;
           text-align: center;
+        }
+        .pge {
+          max-height: 150px;
         }
 
         .logos {
@@ -91,36 +96,60 @@ return (
             transform: translate(-50%, -50%);
             text-align: center;
           }
+          @media only screen and (max-width: 900px) {
+            .logos {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              height: auto;
+            }
+            .container {
+              width: 90%;
+            }
+          }
             `}</style>
-      <h3 className="header">PROUDLY SPONSORED BY</h3>
+          <h2 className="header">PROUDLY SPONSORED BY</h2>
       <div className="logos">
 
 
-        <div className="container">
+        <figure className="container">
             <img className="amica" src={amica} alt='Amica Company Logo'/>
           <div className="overlayHover">
-            <div className="text"><a href="https://www.amica.com/" ><FontAwesomeIcon icon='link'/> Go to Amicas Website</a></div>
+            <div
+              className="text"
+              role="link">
+              <a href="https://www.amica.com/" >
+                <FontAwesomeIcon icon='link'aria-label='Checkout Amicas website.'/>
+                Go to Amicas Website
+              </a>
+              </div>
           </div>
-        </div>
+        </figure>
 
 
-        <div className="container">
+        <figure className="container">
           <img className="daveskillerbread" src={daveskillerbread} alt='Daves Killer Bread Company Logo'/>
           <div className="overlayHover">
-            <div className="text"><a href="http://www.daveskillerbread.com"><FontAwesomeIcon icon='link'/> Go to Daves Killer Bread Website</a></div>
+            <div className="text"
+                role="link">
+              <a href="http://www.daveskillerbread.com" aria-label="Checkout Daves Killer Bread website">
+                <FontAwesomeIcon icon='link'/>
+                Go to Daves Killer Bread Website
+              </a>
+            </div>
 
           </div>
-        </div>
+        </figure>
 
 
-        <div className="container">
+        <figure className="container">
           <img className="pge" src={pge}
            alt='PGE Company Logo'/>
-        </div>
+       </figure>
 
 
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -11,7 +11,7 @@ function BlogPanel(props) {
     marginRight: '10px'
   }
   return(
-    <div className='blogPanel'>
+    <article className='blogPanel'>
       <style jsx>{`
           .blogPanel {
             width: 30%;
@@ -34,7 +34,7 @@ function BlogPanel(props) {
             align-items: center;
             justify-content: space-around;
           }
-          .blogPanel h2 {
+          .blogPanel h3 {
             margin-right: 10px;
           }
           .blogDescription {
@@ -42,26 +42,32 @@ function BlogPanel(props) {
             margin-bottom: 20px;
           }
 
+          @media only screen and (max-width: 900px) {
+            .blogPanel {
+              width: 90%
+            }
+          }
+
           `}</style>
-        <div className='headline'>
-          <h2>{props.headline}</h2>
+        <section className='headline'>
+          <h3 style={black}>{props.headline}</h3>
           <a className="fontColor" href='#'> / READ ALL</a>
-        </div>
+        </section>
 
 
         <img src={require(`../../assets/${props.imageName}.jpg`)} alt={props.altTags}></img>
-        <h3>{props.blogTitle}</h3>
+        <h4>{props.blogTitle}</h4>
 
 
-        <div className="dateAndComments blogDescription">
+        <section className="dateAndComments blogDescription">
           <FontAwesomeIcon icon='calendar'/> <p className='fontColor' >{props.blogDate}</p>
           <FontAwesomeIcon icon='comments'/> <p className='fontColor' >{props.comments}</p>
-        </div>
+        </section>
 
         <p className='fontColor blogDescription'>{props.summary}</p>
         <p className='fontColor blogDescription'><FontAwesomeIcon style={black} icon='folder'/> {props.tags}</p>
 
-      </div>
+      </article>
     );
   }
 

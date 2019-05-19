@@ -6,7 +6,8 @@ import Instagram from './Instagram';
 
 function Footer() {
   return(
-    <div className="flex">
+    <footer className="flex">
+
       <style jsx>{`
         .flex {
           display: flex;
@@ -15,13 +16,20 @@ function Footer() {
           color: white;
           padding-top: 2%;
           background-color:#616429;
+        }
 
+        @media only screen and (max-width: 900px) {
+          .flex {
+            flex-direction: column;
+            align-items: center;
+          }
         }
             `}</style>
+      
       <Instagram />
       <Contacts />
       <Twitter />
-    </div>
+    </footer>
   );
 }
 
