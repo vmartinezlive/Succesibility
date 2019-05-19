@@ -8,11 +8,11 @@ _Authors_ **Chris Breaux, Gary Bermudez, Victoria Martinez, Doris Warren, Maly P
 
 
 1. [Description](#description)
-2. [Learning Objective](#learning-objective)
-3. [Target Audience](#target-audience)
-4. [User Stories](#user-stories)
-5. [Component Structure](#Component-Structure)
-6. [View Project](#View-Project)
+2. [View Project](#View-Project)
+3. [Learning Objective](#learning-objective)
+4. [Target Audience](#target-audience)
+5. [User Stories](#user-stories)
+6. [Component Structure](#Component-Structure)
 7. [Stretch Goals](#stretch-goals)
 8. [Development Plan](#development-plan)
 9. [Installation](#installation)
@@ -68,3 +68,18 @@ Succesibility was built to show the importance of making a website accessibility
 * Creating more pages
 * Routing links their proper pages
 * Connecting Instagram to Farmer Market Instagram account
+
+### Installation
+* Clone github: https://github.com/vmartinezlive/TeamWeek_Successibility.git
+* run npm install
+* run npm start
+
+### Technologies used
+* React
+* JavaScript
+* CSS
+
+### License
+
+This software is licensed under the MIT license.<br>
+Copyright(c) 2019 Victoria Martinez
